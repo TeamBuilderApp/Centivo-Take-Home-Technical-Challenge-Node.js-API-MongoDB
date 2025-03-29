@@ -17,6 +17,11 @@ The MongoDB Driver is the native driver for Node JS applications. Therefore, the
 How do I create a REST API using Node Express JS and MongoDB?
 A REST API can be created by setting up an Express server with connection to MongoDB Atlas, as well as exposing REST API endpoints to the client applications.
 
+Install MongoDB Driver. 
+Call node \create_MongoDB\createMongoDB.js this will create the DB if it does not already exist.
+Also note that, in MongoDB, a database is not created until it gets content! 
+MongoDB waits until you have created a collection (table), with at least one document (record) before it actually creates the database (and collection).
+
 
 References:
 https://www.mongodb.com/resources/languages/express-mongodb-rest-api-tutorial
